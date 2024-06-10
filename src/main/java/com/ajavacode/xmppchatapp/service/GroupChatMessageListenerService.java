@@ -5,10 +5,11 @@ import io.vertx.core.http.ServerWebSocket;
 import lombok.RequiredArgsConstructor;
 import org.jivesoftware.smackx.muc.MultiUserChat;
 import org.jxmpp.jid.EntityFullJid;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
+@Service
 @RequiredArgsConstructor
 public class GroupChatMessageListenerService {
 
